@@ -7,11 +7,11 @@ i = int(input("enter your option from 1-3 ,1: search id. 2: search topic. 3:ppur
 def search(i):
         option = input("enter topic or id")
         switcher={
-                 "1": # option = int(input("enter id"))
+                 "1":
                     searchID(int(option)),
-                "2":# option = input("enter topic")
+                "2":
                     searchTopic(option),
-                "3": # option = int(input("enter id"))
+                "3":
                     purchase(int(option))
                 }
         return switcher.get(i,"Invalid")
